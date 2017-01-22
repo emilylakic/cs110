@@ -1,0 +1,82 @@
+﻿Craps Dice Game
+Computer Science 110 A0
+Fall Semester 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Danielle O'Neal
+Jordana Simon
+Emily Lakic
+Samantha Chu
+Proposal Outline
+1. Cover Page
+Group member names = Danielle O'Neal, Jordana Simon, Emily Lakic, Samantha Chu
+Project title = Craps Dice Game
+Course number = CS 110 A0
+Semester = Fall 2016
+II. Public Interface Design
+* We will be using digital wireframing as our public interface
+* We will layout the design of the cards, the rules of the game and how to play
+III. Top-Level Design
+* Logic classes 
+   * Crapsgame.py (Controls the rolling of the dice)
+   * Die.py (Makes the logic of the die (Makes the sides: 1-6))
+   * Rollingdie.py (Makes the dice roll, checks if the dice are rolling, avoids collisions between the dice, makes the dice move, makes the actual dots on the dice)
+* Interface GUI classes
+   * Craps.py (Overlaps all of the classes; main interface class)
+   * CrapsStats.py (Makes GUI window, runs game, and controls wins/losses)
+   * CrapsTable.py (Formats table, checks if dice are still rolling, and processes timer events)
+   * Controlpanel.py (Makes the roll button and rolls the dice when the button is clicked)
+IV. Tasks and Responsibilities
+* A timeline of when tasks and project units will be completed
+   * Think of this as a todo list with due dates you give yourself
+   * Your project should be broken up into manageable units (see below)
+      * A unit is not complete until it has been formally tested
+* You must outline who is responsible for each task by documenting both individual and collaborative responsibility
+   * Emily Lakic - Logic classes portion of the project
+      * Code Rollingdie.py (independent program unit)
+      * Code die.py
+   * Danielle O’Neal - Interface classes portion of the project
+      * Code CrapsStats.py
+      * Code Controlpanel.py
+   * Jordana Simon - Logic classes portion of the project
+      * Code Crapsgame.py (independent program unit)
+   * Samantha Chu - Interface classes portion of the project
+      * Code CrapsTable.py
+   * Collaboratively - Interface classes & Logic classes
+      * Code Craps.py (Interface class)
+V. Testing
+* We will use the print function to determine if all of the variables and functions are correctly running to successfully play a dice game of Craps
+* We will perform integration testing using various test inputs to test all possible cases of inputs into our Craps program
+* We will test our code using the Python terminal as well as Atom
